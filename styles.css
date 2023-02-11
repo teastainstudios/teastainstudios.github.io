@@ -1,23 +1,24 @@
 body {
-    background: rgb(27, 26, 26);
-    color: rgb(255, 255, 255);
+    background: rgb(59, 59, 59);
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background: black;
     padding: 1.5%;
-    margin: 0% 0% 1% 0%;
+    margin: -1% -1% 1% -1%;
     font-size: 250%;
 }
 
 section {
-    background: white;
-    color: rgb(44, 44, 44);
+    background: black;
+    margin: 0% -1% 1% -1%;
     padding: 1.5%
 }
 
 p {
+    color: white;
     margin: 0% 0% 1.5% 0%;
 }
 
@@ -27,6 +28,18 @@ ul {
 }
 
 li {
+    color: white;
     display: inline-block;
     font-size: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    color: white;
+    font-size: 100%
+}
+
+h2 {
+    color: white;
 }
