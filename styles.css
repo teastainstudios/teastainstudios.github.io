@@ -64,7 +64,7 @@ h2 {
 
 .logo {
     background-image: url("images/TeastainLogo.png");
-    background-size: 120px;
+    background-size: 120px 120px;
     background-repeat: none;
     display: inline-block;
     position: relative;
@@ -72,11 +72,16 @@ h2 {
     width: 120px;
     text-indent: -999999px;
     top: -40px;
+    transform: all .2 ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .sectionGameTextFrostbite {
     float: right;
-    margin: 50px 10px 0px 0px;
+    margin: 10px 10px 0px 0px;
 }
 
 nav {
@@ -87,20 +92,28 @@ nav .navbutton {
     text-decoration: none;
     display: inline-block;
     color: white;
+    transform: all .2 ease-in-out;
 }
 
 nav .navbutton:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
 }
 
 .playButton {
-    text-decoration: none;
-    color: white;
-    font-size: 30;
+    background-image: url("images/PlayButton.png");
+    background-size: 150px 50px;
+    background-repeat: none;
+    height: 50px;
+    width: 150px;
+    float: right;
+    margin: -80px 105px 0px 0px;
+    position: relative;
+    text-indent: -9999999999px;
+    transition: all .2s ease-in-out;
 }
 
 .playButton:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
 }
 
 p {
