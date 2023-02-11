@@ -1,45 +1,120 @@
 body {
-    background: rgb(59, 59, 59);
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(13, 13, 19);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background: black;
-    padding: 1.5%;
-    margin: -1% -1% 1% -1%;
-    font-size: 250%;
+    background: rgb(18, 18, 27);
+    background-image: url("images/Code.png");
+    background-size: 950px;
+    padding: 30px 30px;
+    font-size: 20px;
+    height: 230px;
 }
 
 section {
-    background: black;
-    margin: 0% -1% 1% -1%;
-    padding: 1.5%
+    background: rgb(18, 18, 27);
+    color: white;
+    padding: 60px 30px;
+    font-size: 20px;
+    width: 700px;
+    margin: 0 auto 0 auto;
+    margin-top: 50px;
+}
+
+footer {
+    background-attachment: scroll;
+    background-position: 0px 0px;
+    position: fixed;
+    bottom: 0pt;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1 {
+    padding: 40px 0px;
+    margin: -40px 0px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    padding: 40px 0px;
+    margin: -40px 0px;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    background-image: url("images/TeastainLogo.png");
+    background-size: 120px;
+    background-repeat: none;
+    display: inline-block;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    text-indent: -999999px;
+    top: -40px;
+}
+
+.sectionGameTextFrostbite {
+    float: right;
+    margin: 50px 10px 0px 0px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav .navbutton {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+nav .navbutton:hover {
+    text-decoration: underline;
+}
+
+.playButton {
+    text-decoration: none;
+    color: white;
+    font-size: 30;
+}
+
+.playButton:hover {
+    text-decoration: underline;
 }
 
 p {
     color: white;
-    margin: 0% 0% 1.5% 0%;
+    text-align: center;
 }
 
-ul {
-    margin: 0%;
-    padding: 0%;
+p a.link{
+    text-decoration: none;
+    color: rgb(75, 75, 189);
+    float: left;
 }
 
-li {
+p a.floatleft{
     color: white;
-    display: inline-block;
-    font-size: 50%;
-    margin: 0%;
-    padding: 0%;
-}
-
-h1 {
-    color: white;
-    font-size: 100%
-}
-
-h2 {
-    color: white;
+    float: left;
 }
